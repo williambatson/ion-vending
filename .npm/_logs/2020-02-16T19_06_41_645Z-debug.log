@@ -1,0 +1,34 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'run', 'prod' ]
+2 info using npm@6.9.0
+3 info using node@v10.15.3
+4 verbose run-script [ 'preprod', 'prod', 'postprod' ]
+5 info lifecycle @~preprod: @
+6 info lifecycle @~prod: @
+7 verbose lifecycle @~prod: unsafe-perm in lifecycle true
+8 verbose lifecycle @~prod: PATH: /usr/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/var/www/html/APL-app/node_modules/.bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+9 verbose lifecycle @~prod: CWD: /var/www/html/APL-app
+10 silly lifecycle @~prod: Args: [ '-c', 'npm run production' ]
+11 silly lifecycle @~prod: Returned: code: 126  signal: null
+12 info lifecycle @~prod: Failed to exec prod script
+13 verbose stack Error: @ prod: `npm run production`
+13 verbose stack Exit status 126
+13 verbose stack     at EventEmitter.<anonymous> (/usr/lib/node_modules/npm/node_modules/npm-lifecycle/index.js:301:16)
+13 verbose stack     at EventEmitter.emit (events.js:189:13)
+13 verbose stack     at ChildProcess.<anonymous> (/usr/lib/node_modules/npm/node_modules/npm-lifecycle/lib/spawn.js:55:14)
+13 verbose stack     at ChildProcess.emit (events.js:189:13)
+13 verbose stack     at maybeClose (internal/child_process.js:970:16)
+13 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:259:5)
+14 verbose pkgid @
+15 verbose cwd /var/www/html/APL-app
+16 verbose Linux 4.15.0-47-generic
+17 verbose argv "/usr/bin/node" "/usr/bin/npm" "run" "prod"
+18 verbose node v10.15.3
+19 verbose npm  v6.9.0
+20 error code ELIFECYCLE
+21 error errno 126
+22 error @ prod: `npm run production`
+22 error Exit status 126
+23 error Failed at the @ prod script.
+23 error This is probably not a problem with npm. There is likely additional logging output above.
+24 verbose exit [ 126, true ]
